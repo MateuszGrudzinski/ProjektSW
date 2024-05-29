@@ -9,7 +9,6 @@ from os import listdir
 import numpy as np
 from reszta_kodu import Tuning_functions
 from reszta_kodu import Proccesing
-from scipy.spatial import distance as dist
 
 parser = argparse.ArgumentParser()
 parser.add_argument('images_dir', type=str)

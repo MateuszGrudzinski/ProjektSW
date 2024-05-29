@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec68b308-2a10-48d4-9378-408fdef0c8ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ProjektSW.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reszta_kodu/Proccesing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reszta_kodu/Tuning_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tuning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Grudzinski_Mateusz.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Grudzinski_Mateusz.executor": "Run",
     "Python.Tuning.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -56,7 +51,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Tuning" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Grudzinski_Mateusz" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ProjektSW" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,7 +65,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tuning.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Grudzinski_Mateusz.py" />
       <option name="PARAMETERS" value="$PROJECT_DIR$/train_1 file.json" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,8 +97,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Tuning.py</url>
-          <line>53</line>
+          <url>file://$PROJECT_DIR$/Grudzinski_Mateusz.py</url>
+          <line>52</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
