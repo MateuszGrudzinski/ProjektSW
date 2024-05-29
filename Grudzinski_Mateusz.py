@@ -26,7 +26,7 @@ for images in images_paths:
     if img is None:
         print(f'Error loading image {images}')
         continue
-
+    img = cv2.resize(img,(3968,2976))
     img_grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     pts, screenCnt = Proccesing.find_lincense_plate(img_grey)
