@@ -2,6 +2,10 @@ import cv2
 import numpy as np
 import os
 def find_lincense_plate(img):
+    """Rozmycie tablicy filtrem medianowym, następnie wykorzystanie progowania adaptacyjnego w celu z progowania obrazów w różnych
+    warunkahc oświetleniowych, morflologia w celu domknięcia konturów. kontury sortowane są od największego do najmniejszego następie mierzona jest ich długość
+    oraz dokonywana jest aproksymacja kształtu. Jeżeli kontur udało się opisać przy pomocy 4 punktów nie zmieniając jego rozmiaru o więcej niż 1,2%
+    zakładamy iż ten kontur jest tablicą."""
     cv2.medianBlur(img, 11, img)
     th3 = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY_INV, 41,
                                 5)
@@ -18,6 +22,8 @@ def find_lincense_plate(img):
     pts = approx[:,0,:]
     return pts, screenCnt
 def get_license_plate(pts,img):
+    """Z znalezionych punktów tablicy, sortuje odpowiednio wierzchołki a następnie prostuje znaezioną tablicę, przy pomocy
+    przekształcenia perspektywicznego"""
     pts_sorted = pts[pts[:, 0].argsort()]
     pts_left = pts_sorted[:2,:]
     pts_left = pts_left[pts_left[:, 1].argsort()]
@@ -33,6 +39,11 @@ def get_license_plate(pts,img):
     return tablica
 
 def preprocces_license_plate(img):
+    """
+    Przygotowanie znalezionej tablicy do dalszej analizy. Rozmycie przy pomocy filtru medianowego, progowanie po value
+    w przestrzeni HSV, wartości progów dobrane przy pomocy funckji z pliku Tuning_functions. Dodatkowa morfologia w celu
+    zamknięcia konturów tablicy.
+    """
     tablica_filtered = cv2.medianBlur(img, 5)
     tablica_filtered_HSV = cv2.cvtColor(tablica_filtered, cv2.COLOR_BGR2HSV)
     tablica_closed = cv2.cvtColor(tablica_filtered,cv2.COLOR_BGR2GRAY).copy()
@@ -45,6 +56,10 @@ def preprocces_license_plate(img):
     return Mask
 
 def find_chars(img_preprocesed,img):
+    """
+    Znajdywanie znaków na tablicy odbywa się poprzez znalezienie odpowiednich konturów. Kontury te sortowane są w kolejności
+    Występowania na obrazie od lewej do prawej. Odpowiedni kontur musi mieć dopuszczalną powierzchnię, szerokość oraz wysokość aby uznany został za literę.
+    """
     contours, hierarchy = cv2.findContours(img_preprocesed, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     contours = sorted(contours, key=cv2.contourArea, reverse=True)[:15]
 
@@ -70,6 +85,7 @@ def find_chars(img_preprocesed,img):
     return res
 
 def parse_license_plate(res):
+    #Templete matching wykorzystywany do rozpoznawania znaków, funcja jako wejście przyjmuje listę znaków wykrytych na tablicy.
     znaki_dir = "dane/Znaki_do_matchingu_2/"
     dict = {}
     detected_string = ""

@@ -51,7 +51,7 @@ for images in images_paths:
     detected_string = Proccesing.parse_license_plate(res)
 
     json_dict[images.name] = detected_string
-    print(json_dict)
+    #print(json_dict)
     cv2.waitKey(10)
 with results_file.open('w') as output_file:
     json.dump(json_dict, output_file, indent=4)
