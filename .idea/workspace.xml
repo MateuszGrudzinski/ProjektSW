@@ -4,72 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec68b308-2a10-48d4-9378-408fdef0c8ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Grudzinski_Mateusz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Grudzinski_Mateusz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/A.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/B.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/C.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/D.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/E.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/F.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/G.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/H.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/I.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/J.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/K.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/L.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/M.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/N.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/O.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/P.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/R.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/S.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/T.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/U.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/V.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/W.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/X.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znaki_do_matchingu/Z.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reszta_kodu/Proccesing.py" beforeDir="false" afterPath="$PROJECT_DIR$/reszta_kodu/Proccesing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/CIN20356.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/CMG21FG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/FSD23429.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PCT15PY.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PGN141GR.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PGN756EC.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PKL8C63.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PKRR788.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PKS30W3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PO033AX.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PO096NT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PO155KU.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PO2J735.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PO2W494.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PO522WJ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PO5T224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PO6K534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PO778SS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/POBTC81.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/POZS221.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PSE22800.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PSZ47620.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PZ0460J.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/PZ492AK.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/WSCUP62.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1/ZSL17729.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="ec68b308-2a10-48d4-9378-408fdef0c8ca" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
